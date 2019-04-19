@@ -39,10 +39,6 @@ public class User implements java.io.Serializable {
         this.name = name;
     }
 
-    public void setId(Long id){
-        this.id = id;
-    }
-
     public Date getCreatedate() {
         return createdate;
     }
